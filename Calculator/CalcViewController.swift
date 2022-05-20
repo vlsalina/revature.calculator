@@ -13,8 +13,8 @@ class CalcViewController: UIViewController {
     @IBOutlet weak var num2: UILabel!
     @IBOutlet weak var display: UILabel!
     
-    var x = "0"
-    var y = "0"
+    var x = ""
+    var y = ""
     var op = -1
     var result = 0
     var sofar = false
@@ -162,10 +162,10 @@ class CalcViewController: UIViewController {
         display.text = String(result)
         
         // reset
-        x = "0"
-        y = "0"
-        num1.text = x
-        num2.text = y
+        x = ""
+        y = ""
+        num1.text = "0"
+        num2.text = "0"
         sofar = false
         result = 0
     }
