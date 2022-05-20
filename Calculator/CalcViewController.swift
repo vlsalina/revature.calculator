@@ -29,20 +29,20 @@ class CalcViewController: UIViewController {
     @IBAction func b7(_ sender: Any) {
         if (!sofar) {
            x = x + "7"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "7"
-            num2.text = y
+            display.text = y
         }
     }
     
     @IBAction func b8(_ sender: Any) {
                 if (!sofar) {
            x = x + "8"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "8"
-            num2.text = y
+            display.text = y
         }
 
     }
@@ -50,10 +50,10 @@ class CalcViewController: UIViewController {
     @IBAction func b9(_ sender: Any) {
                 if (!sofar) {
            x = x + "9"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "9"
-            num2.text = y
+            display.text = y
         }
 
     }
@@ -61,10 +61,10 @@ class CalcViewController: UIViewController {
     @IBAction func b4(_ sender: Any) {
                 if (!sofar) {
            x = x + "4"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "4"
-            num2.text = y
+            display.text = y
         }
 
     }
@@ -72,10 +72,10 @@ class CalcViewController: UIViewController {
     @IBAction func b5(_ sender: Any) {
                 if (!sofar) {
            x = x + "5"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "5"
-            num2.text = y
+            display.text = y
         }
 
     }
@@ -83,10 +83,10 @@ class CalcViewController: UIViewController {
     @IBAction func b6(_ sender: Any) {
                 if (!sofar) {
            x = x + "6"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "6"
-            num2.text = y
+            display.text = y
         }
 
     }
@@ -94,10 +94,10 @@ class CalcViewController: UIViewController {
     @IBAction func b1(_ sender: Any) {
                 if (!sofar) {
            x = x + "1"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "1"
-            num2.text = y
+            display.text = y
         }
 
     }
@@ -105,10 +105,10 @@ class CalcViewController: UIViewController {
     @IBAction func b2(_ sender: Any) {
                 if (!sofar) {
            x = x + "2"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "2"
-            num2.text = y
+            display.text = y
         }
 
     }
@@ -116,10 +116,10 @@ class CalcViewController: UIViewController {
     @IBAction func b3(_ sender: Any) {
                 if (!sofar) {
            x = x + "3"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "3"
-            num2.text = y
+            display.text = y
         }
 
     }
@@ -127,10 +127,10 @@ class CalcViewController: UIViewController {
     @IBAction func b0(_ sender: Any) {
         if (!sofar) {
            x = x + "0"
-           num1.text  = x
+           display.text  = x
         } else {
             y = y + "0"
-            num2.text = y
+            display.text = y
         }
     }
     
@@ -138,14 +138,17 @@ class CalcViewController: UIViewController {
     @IBAction func add(_ sender: Any) {
         sofar = true
         op = 0
+        display.text = ""
     }
     @IBAction func subtract(_ sender: Any) {
         sofar = true
         op = 1
+        display.text = ""
     }
     @IBAction func multiply(_ sender: Any) {
         sofar = true
         op = 2
+        display.text = ""
     }
     @IBAction func solution(_ sender: Any) {
         switch (op) {
@@ -158,14 +161,11 @@ class CalcViewController: UIViewController {
         default:
             result = 0
         }
-        print(result)
         display.text = String(result)
         
         // reset
         x = ""
         y = ""
-        num1.text = "0"
-        num2.text = "0"
         sofar = false
         result = 0
     }
