@@ -13,8 +13,10 @@ class CalcViewController: UIViewController {
     @IBOutlet weak var num2: UILabel!
     @IBOutlet weak var display: UILabel!
     
-    var x = ""
-    var y = ""
+    var x = "0"
+    var y = "0"
+    var op = -1
+    var result = 0
     var sofar = false
     
     override func viewDidLoad() {
@@ -130,18 +132,43 @@ class CalcViewController: UIViewController {
             y = y + "0"
             num2.text = y
         }
-
     }
-    
     
     // operations
-    @IBAction func multiply(_ sender: Any) {
+    @IBAction func add(_ sender: Any) {
+        sofar = true
+        op = 0
     }
     @IBAction func subtract(_ sender: Any) {
+        sofar = true
+        op = 1
     }
-    @IBAction func add(_ sender: Any) {
+    @IBAction func multiply(_ sender: Any) {
+        sofar = true
+        op = 2
     }
-    
+    @IBAction func solution(_ sender: Any) {
+        switch (op) {
+        case 0:
+            result = Int(x)! + Int(y)!
+        case 1:
+            result = Int(x)! - Int(y)!
+        case 2:
+            result = Int(x)! * Int(y)!
+        default:
+            result = 0
+        }
+        print(result)
+        display.text = String(result)
+        
+        // reset
+        x = "0"
+        y = "0"
+        num1.text = x
+        num2.text = y
+        sofar = false
+        result = 0
+    }
     
     /*
     // MARK: - Navigation

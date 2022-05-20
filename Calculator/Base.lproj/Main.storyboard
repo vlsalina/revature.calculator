@@ -24,7 +24,7 @@
                                 <rect key="frame" x="50" y="370" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7qS-kp-byB"/>
                                 </connections>
@@ -33,7 +33,7 @@
                                 <rect key="frame" x="132" y="370" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LpF-CC-mkQ"/>
                                 </connections>
@@ -42,7 +42,7 @@
                                 <rect key="frame" x="208" y="370" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bAI-RR-5tS"/>
                                 </connections>
@@ -51,7 +51,7 @@
                                 <rect key="frame" x="50" y="437" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QT9-8S-52t"/>
                                 </connections>
@@ -60,7 +60,7 @@
                                 <rect key="frame" x="50" y="511" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8tc-kG-cIO"/>
                                 </connections>
@@ -69,7 +69,7 @@
                                 <rect key="frame" x="132" y="511" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5y6-HU-M8G"/>
                                 </connections>
@@ -78,7 +78,7 @@
                                 <rect key="frame" x="208" y="511" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TkI-mV-kUX"/>
                                 </connections>
@@ -87,7 +87,7 @@
                                 <rect key="frame" x="50" y="581" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MJl-WZ-9Zi"/>
                                 </connections>
@@ -96,7 +96,7 @@
                                 <rect key="frame" x="208" y="581" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O2L-Jd-tdp"/>
                                 </connections>
@@ -105,7 +105,7 @@
                                 <rect key="frame" x="132" y="437" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ady-OT-YoF"/>
                                 </connections>
@@ -114,7 +114,7 @@
                                 <rect key="frame" x="208" y="437" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="b6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G69-Tf-hig"/>
                                 </connections>
@@ -123,13 +123,16 @@
                                 <rect key="frame" x="290" y="581" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="solution:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3k3-on-yG4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ro-k9-KMd">
                                 <rect key="frame" x="290" y="437" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="multiply:" destination="BYZ-38-t0r" eventType="touchDragInside" id="zdF-9g-P8h"/>
                                 </connections>
@@ -146,7 +149,7 @@
                                 <rect key="frame" x="290" y="511" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="subtract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4iz-r8-OgQ"/>
                                 </connections>
@@ -155,7 +158,7 @@
                                 <rect key="frame" x="290" y="370" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkP-73-4Ln">
                                 <rect key="frame" x="58" y="138" width="140" height="68"/>
